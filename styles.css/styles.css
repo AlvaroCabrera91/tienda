@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* header*/
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+}
+.buscador{
+    text-align: right;
+}
+.search{
+    margin-bottom: 10px;
+}
+
+.colorcab{
+    color: #eaeaea;
+}
+.promo{
+    color:red;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+/* cuerpo*/
+.float{
+    position: fixed;
+    text-align: left;
+    margin: -20px 35px;
+}
+
+.modelos {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin: 0px 50px;
+}
+
+.ropa {
+    text-align: center;
+    margin: 10px 0px;
+    width: 300px;
+    gap: 10px;
+}
+.imgropa{
+    width: 100%;
+}
+.money{
+    font-weight: bold;
+}
+
+.icono{
+    width: 15px;
+}
+
+/* newsletter*/
+
+.newsletter{
+    height: 300px;
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
